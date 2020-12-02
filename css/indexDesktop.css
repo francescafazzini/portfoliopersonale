@@ -442,46 +442,103 @@ img{
   text-decoration:none;
   bottom:3.75vw
 }
+
 #colpevole-dida{
   top:27.5vh;
   left:1.25vw;
   position:absolute
 }
+#colpevole-discover{
+  position:absolute;
+  text-align: center;
+  text-decoration:none;
+  bottom:3.75vw
+}
+
 #riace-dida{
   top:27.5vh;
   left:1.25vw;
   position:absolute
 }
+#riace-discover{
+  position:absolute;
+  text-align: center;
+  text-decoration:none;
+  bottom:3.75vw
+}
+
 #mrseaves-dida{
   top:27.5vh;
   left:1.25vw;
   position:absolute;
 }
+#mrseaves-discover{
+  position:absolute;
+  text-align: center;
+  text-decoration:none;
+  bottom:3.75vw
+}
+
 #arbus-dida{
  top:27.5vh;
  left:1.25vw;
  position:absolute
 }
+#arbus-discover{
+  position:absolute;
+  text-align: center;
+  text-decoration:none;
+  bottom:3.75vw
+}
+
 #fellini-dida{
  top:27.5vh;
  left:1.25vw;
  position:absolute
 }
+#fellini-discover{
+  position:absolute;
+  text-align: center;
+  text-decoration:none;
+  bottom:3.75vw
+}
+
 #steiner-dida{
  top:27.5vh;
  left:1.25vw;
  position:absolute
 }
+#steiner-discover{
+  position:absolute;
+  text-align: center;
+  text-decoration:none;
+  bottom:3.75vw
+}
+
 #ecovie-dida{
  top:27.5vh;
  left:1.25vw;
  position:absolute
 }
+#ecovie-discover{
+  position:absolute;
+  text-align: center;
+  text-decoration:none;
+  bottom:3.75vw
+}
+
 #illustrazioni-dida{
   top:27.5vh;
   left:1.25vw;
   position:absolute
  }
+#illustrazioni-discover{
+   position:absolute;
+   text-align: center;
+   text-decoration:none;
+   bottom:3.75vw
+ }
+
 
 a{
  color:inherit;
