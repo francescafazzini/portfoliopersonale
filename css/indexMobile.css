@@ -33,75 +33,80 @@ canvas{
     border-bottom:1px solid yellow;
 }
 .button-ee {
-  right:2.5vw;
   position: absolute;
   background-color: transparent;
   color: cyan;
   font-family: sans-serif;;
-  font-size: 1.25vw;
-  width: 15%;
+  font-size: 14px;
+  width: 30vw;
   border-radius: 25px;
-  border: 2px solid yellow;
+  border: 1px solid cyan;
+  cursor: pointer;
+
+
 
   }
 .button-ee:hover {
-  right:2.5vw;
   position: absolute;
   background-color: cyan;
   color: #ff00ff;
   font-family: sans-serif;;
-  font-size: 1.25vw;
-  width: 15%;
+  font-size: 14px;
+  width: 30vw;
   border-radius: 25px;
-  border: 2px solid yellow;
+  border: 1px solid yellow;
   cursor: pointer;
   }
 .button-ee:active{
-  right:2.5vw;
   position: absolute;
   background-color: cyan;
   color: #ff00ff;
   font-family: sans-serif;;
-  font-size: 1.25vw;
-  width: 15%;
+  font-size: 14px;
+  width: 30vw;
   border-radius: 25px;
-  border: 2px solid yellow;
+  border: 1px solid yellow;
+  transform: translateY(5px);
   cursor: pointer;
+
+
     }
 .button-light{
-  right:2.5vw;
-    position: absolute;
-    background-color: transparent;
-    color: #000000;
-    font-family: sans-serif;;
-    font-size: 1.25vw;
-    width: 15%;
-    border-radius: 25px;
-    border: 2px solid #000000;
+  position: absolute;
+  background-color: transparent;
+  color: black;
+  font-family: sans-serif;;
+  font-size: 14px;
+  width: 30vw;
+  border-radius: 25px;
+  border: 1px solid black;
+  cursor: pointer;
+
   }
 .button-light:hover{
-  right:2.5vw;
-    position: absolute;
-    background-color: #000000;
-    color: #ffffff;
-    font-family: sans-serif;;
-    font-size: 1.25vw;
-    width: 15%;
-    border-radius: 25px;
-    border: 2px solid #000000;
-    cursor: pointer;
+  position: absolute;
+  background-color: black;
+  color: white;
+  font-family: sans-serif;;
+  font-size: 14px;
+  width: 30vw;
+  border-radius: 25px;
+  border: 1px solid black;
+  cursor: pointer;
+
   }
 .button-light:active{
-  right:2.5vw;
-    position: absolute;
-    background-color: #000000;
-    color: #ffffff;
-    font-family: sans-serif;;
-    font-size: 1.25vw;
-    width: 15%;
-    border-radius: 25px;
-    border: 2px solid #000000;
+  position: absolute;
+  background-color: black;
+  color: white;
+  font-family: sans-serif;;
+  font-size: 14px;
+  width: 30vw;
+  border-radius: 25px;
+  border: 1px solid black;
     transform: translateY(5px);
+    cursor: pointer;
+
   }
 .button-dark{
           position: absolute;
@@ -112,6 +117,8 @@ canvas{
           width: 30vw;
           border-radius: 25px;
           border: 1px solid #ffffff;
+          cursor: pointer;
+
 
 
         }
@@ -124,6 +131,8 @@ canvas{
   width: 30vw;
   border-radius: 25px;
   border: 1px solid #ffffff;
+  cursor: pointer;
+
 
         }
 .button-dark:active{
@@ -135,6 +144,10 @@ canvas{
   width: 30vw;
   border-radius: 25px;
   border: 1px solid #ffffff;
+  transform: translateY(5px);
+  cursor: pointer;
+
+
         }
 
 /**francesca**/
@@ -150,24 +163,26 @@ canvas{
   cursor: default;
   }
 .francesca-light{
-    left:1.25vw;
-    top:1.25vw;
-    position: absolute;
-    color: #000000;
-    font-family: sans-serif;;
-    font-size: 1.25vw;
-    width: 15vw;
-    cursor: default;
+  left:50%;
+  transform: translate(-50%,0);
+  position: absolute;
+  color: black;
+  font-family: sans-serif;;
+  font-size: 14px;
+  width: 100vw;
+  text-align: center;
+  cursor: default;
     }
 .francesca-ee{
-        left:1.25vw;
-        top:1.25vw;
-        position: absolute;
-        color: cyan;
-        font-family: sans-serif;;
-        font-size: 1.25vw;
-        width: 15vw;
-        cursor: default;
+  left:50%;
+  transform: translate(-50%,0);
+  position: absolute;
+  color: cyan;
+  font-family: sans-serif;;
+  font-size: 14px;
+  width: 100vw;
+  text-align: center;
+  cursor: default;
         }
 
 /**contatti**/
@@ -188,8 +203,8 @@ canvas{
 
         }
 .wannasayhi-box-light{
-  width:30vw;
-  height: 30vh;
+  width:75vw;
+  height: 250px;
   background-color: white;
   visibility: visible;
   top: 50%;
@@ -198,13 +213,13 @@ canvas{
   margin-top: var(--mT);
   transform: translate(-50%,-50%);
   z-index: +10;
-  border: 2px solid #000000;
-  box-shadow: 10px 10px black;
+  border: 1px solid black;
+  box-shadow: 5px 5px black;
 
 }
 .wannasayhi-box-ee{
-  width:30vw;
-  height: 30vh;
+  width:75vw;
+  height: 250px;
   background-color: #ff00ff;
   visibility: visible;
   top: 50%;
@@ -213,8 +228,8 @@ canvas{
   margin-top: var(--mT);
   transform: translate(-50%,-50%);
   z-index: +10;
-  border: 2px solid  yellow;
-  box-shadow: 10px 10px cyan;
+  border: 1px solid yellow;
+  box-shadow: 5px 5px cyan;
 
 }
 .testo-base-dark{
@@ -225,12 +240,12 @@ canvas{
 .testo-base-light{
   font-family: sans-serif;
   color:black;
-  font-size: 1.25vw
+  font-size: 14px
 }
 .testo-base-ee{
   font-family: sans-serif;
   color:cyan;
-  font-size: 1.25vw
+  font-size: 14px
 }
 .runner-dark{
           bottom: 5px;
@@ -245,42 +260,43 @@ canvas{
           z-index: +5;
         }
 .runner-light{
-          bottom: 1.25vw;
-          height: 1.25vw;
-          position: absolute;
-          background-color: transparent;
-          color: black;
-          font-family: sans-serif;;
-          font-size: 1.25vw;
-          width: 100%;
-          position: fixed;
-          z-index: +5;
+  bottom: 5px;
+  height: 2vh;
+  position: absolute;
+  background-color: transparent;
+  color: black;
+  font-family: sans-serif;;
+  font-size: 14px;
+  width: 100%;
+  position: fixed;
+  z-index: +5;
         }
 .runner-ee{
-          bottom: 1.25vw;
-          height: 1.25vw;
-          position: absolute;
-          background-color: transparent;
-          color: cyan;
-          font-family: sans-serif;;
-          font-size: 1.25vw;
-          width: 100%;
-          position: fixed;
-          z-index: +5;
+  bottom: 5px;
+  height: 2vh;
+  position: absolute;
+  background-color: transparent;
+  color: cyan;
+  font-family: sans-serif;;
+  font-size: 14px;
+  width: 100%;
+  position: fixed;
+  z-index: +5;
         }
 
 
 /**testo ee**/
 h1 {
   font-weight: 100;
-  font-size: 3vw;
+  font-size: 3vh;
   line-height: 1.3;
   cursor: default;
-  text-align: left;
-  top:20vh;
-  left:50vw;
+  text-align: center;
+  top:100px;
+  left:50%;
+  transform: translate(-50%,0);
   position:absolute;
-  width: 40vw;
+  width: 75vw;
   border: 0px solid #00ffff;
 }
 h1 span {
@@ -343,7 +359,7 @@ h2 span:hover {
 
 /**condizioni utili ecc**/
 .light::-webkit-scrollbar {
-  width: auto;
+  width: 0vw;
    }
 .light::-webkit-scrollbar-track {
   background: transparent;
@@ -363,7 +379,7 @@ h2 span:hover {
   background-color: white;
 }
 .ee::-webkit-scrollbar {
-  width: auto;
+  width: 0vw;
    }
 .ee::-webkit-scrollbar-track {
   background: transparent;
@@ -448,45 +464,141 @@ img{
 }
 
 #colpevole-dida{
-  top:27.5vh;
-  left:1.25vw;
-  position:absolute
-}
-#riace-dida{
-  top:27.5vh;
-  left:1.25vw;
-  position:absolute
-}
-#mrseaves-dida{
-  top:27.5vh;
-  left:1.25vw;
+  bottom: 100px;
+  left:50%;
+  transform: translate(-50%,0);
   position:absolute;
+  text-align: center;
+  width: 100vw;
 }
+#colpevole-discover{
+  position:absolute;
+  text-align: center;
+  text-decoration:none;
+  bottom:50px;
+  left:50%;
+  transform: translate(-50%,0);
+}
+
+#riace-dida{
+  bottom: 100px;
+  left:50%;
+  transform: translate(-50%,0);
+  position:absolute;
+  text-align: center;
+  width: 100vw;
+}
+#riace-discover{
+  position:absolute;
+  text-align: center;
+  text-decoration:none;
+  bottom:50px;
+  left:50%;
+  transform: translate(-50%,0);
+}
+
+#mrseaves-dida{
+  bottom: 100px;
+  left:50%;
+  transform: translate(-50%,0);
+  position:absolute;
+  text-align: center;
+  width: 100vw;
+}
+#mrseaves-discover{
+  position:absolute;
+  text-align: center;
+  text-decoration:none;
+  bottom:50px;
+  left:50%;
+  transform: translate(-50%,0);
+}
+
 #arbus-dida{
- top:27.5vh;
- left:1.25vw;
- position:absolute
+  bottom: 100px;
+  left:50%;
+  transform: translate(-50%,0);
+  position:absolute;
+  text-align: center;
+  width: 100vw;
 }
+#arbus-discover{
+  position:absolute;
+  text-align: center;
+  text-decoration:none;
+  bottom:50px;
+  left:50%;
+  transform: translate(-50%,0);
+}
+
 #fellini-dida{
- top:27.5vh;
- left:1.25vw;
- position:absolute
+  bottom: 100px;
+  left:50%;
+  transform: translate(-50%,0);
+  position:absolute;
+  text-align: center;
+  width: 100vw;
 }
+#fellini-discover{
+  position:absolute;
+  text-align: center;
+  text-decoration:none;
+  bottom:50px;
+  left:50%;
+  transform: translate(-50%,0);
+}
+
 #steiner-dida{
- top:27.5vh;
- left:1.25vw;
- position:absolute
+  bottom: 100px;
+  left:50%;
+  transform: translate(-50%,0);
+  position:absolute;
+  text-align: center;
+  width: 100vw;
 }
+#steiner-discover{
+  position:absolute;
+  text-align: center;
+  text-decoration:none;
+  bottom:50px;
+  left:50%;
+  transform: translate(-50%,0);
+}
+
 #ecovie-dida{
- top:27.5vh;
- left:1.25vw;
- position:absolute
+  bottom: 100px;
+  left:50%;
+  transform: translate(-50%,0);
+  position:absolute;
+  text-align: center;
+  width: 100vw;
 }
+#ecovie-discover{
+  position:absolute;
+  text-align: center;
+  text-decoration:none;
+  bottom:50px;
+  left:50%;
+  transform: translate(-50%,0);
+}
+
 #illustrazioni-dida{
-  top:27.5vh;
-  left:1.25vw;
-  position:absolute
+  bottom: 100px;
+  left:50%;
+  transform: translate(-50%,0);
+  position:absolute;
+  text-align: center;
+  width: 100vw;
  }
+#illustrazioni-discover{
+   position:absolute;
+   text-align: center;
+   text-decoration:none;
+   bottom:50px;
+   left:50%;
+   transform: translate(-50%,0);
+ }
+
 
 a{
  color:inherit;

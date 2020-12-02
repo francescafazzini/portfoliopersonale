@@ -193,7 +193,7 @@ canvas{
         }
 .wannasayhi-box-light{
   width:30vw;
-  height: 30vh;
+  height: 350px;
   background-color: white;
   visibility: visible;
   top: 50%;
@@ -208,7 +208,7 @@ canvas{
 }
 .wannasayhi-box-ee{
   width:30vw;
-  height: 30vh;
+  height: 350px;
   background-color: #ff00ff;
   visibility: visible;
   top: 50%;
@@ -512,8 +512,7 @@ transform: translate(-50%,-50%);
 animation: flash linear 1s infinite;
 top:1.25vw;
 position:absolute;
-left:50%;
-transform:translate(-50%,0)
+left:1.25vw;
 }
 #scroll{
 -webkit-animation: flash linear 1s infinite;
