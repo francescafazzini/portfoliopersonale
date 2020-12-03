@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <title>La vicevita - Francesca Fazzini</title>
     <link rel="shortcut icon" href="i/icon0.ico"> <!-- icona da cambiare-->
-    <!-- <link rel="stylesheet" href="css/indexDesktop.css" media="screen and (min-width: 451px)">  stile pc-->
-    <!--<link rel="stylesheet" href="css/indexMobile.css" media="screen and (max-width: 450px)"> stile cell-->
+    <link rel="stylesheet" href="css/projectDesktop.css" media="screen and (min-width: 1000px)">
+    <link rel="stylesheet" href="css/projectsMobile.css" media="screen and (max-width: 1000px)">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--condizione iniziale viewport-->
     <meta name="topic" content="communication design">
     <meta name="keywords" content="design, Francesca Fazzini, comunicazione, communication, editoria, editorial, Politecnico di Milano, tesi di laurea, Mario Piazza">
@@ -26,413 +26,6 @@
 
 
 
-    <style>
-
-  /**generali**/
-    .light {
-        background-color::#ffffff ;
-        color: #000000;  /**#e6b3ff colore lilla**/
-        margin:0;
-        padding: 0;
-        font-family:ortica;
-
-    }
-    .dark {
-        background-color:#000000 ;
-        color:#ffffff;
-        margin:0;
-        padding: 0;
-        font-family:ortica;
-    }
-    .ee {
-        background-color:#ff00ff ;
-        color: #00ffff;  /**#e6b3ff colore lilla**/
-        margin:0;
-        padding: 0;
-        font-family:ortica;
-    }
-
-/**bottoni**/
-    .button-ee {
-      right:2.5vw;
-      position: absolute;
-      background-color: transparent;
-      color: cyan;
-      font-family: sans-serif;;
-      font-size: 1.25vw;
-      width: 15%;
-      border-radius: 25px;
-      border: 2px solid yellow;
-      }
-    .button-ee:hover {
-      right:2.5vw;
-      position: absolute;
-      background-color: #00ffff;
-      color: #ff00ff;
-      font-family: sans-serif;;
-      font-size: 1.25vw;
-      width: 15%;
-      border-radius: 25px;
-      border: 2px solid yellow;
-      cursor: pointer;
-      }
-    .button-ee:active{
-      right:2.5vw;
-        position: absolute;
-        background-color: cyan;
-        color: #ff00ff;
-        font-family: sans-serif;;
-        font-size: 1.25vw;
-        width: 15%;
-        border-radius: 25px;
-        transform: translateY(5px);
-        border: 2px solid yellow;
-        }
-
-    .button-light{
-      right:2.5vw;
-        position: absolute;
-        background-color: transparent;
-        color: #000000;
-        font-family: sans-serif;;
-        font-size: 1.25vw;
-        width: 15%;
-        border-radius: 25px;
-        border: 2px solid #000000;
-      }
-    .button-light:hover{
-      right:2.5vw;
-        position: absolute;
-        background-color: #000000;
-        color: #ffffff;
-        font-family: sans-serif;;
-        font-size: 1.25vw;
-        width: 15%;
-        border-radius: 25px;
-        border: 2px solid #000000;
-        cursor: pointer;
-      }
-    .button-light:active{
-      right:2.5vw;
-        position: absolute;
-        background-color: #000000;
-        color: #ffffff;
-        font-family: sans-serif;;
-        font-size: 1.25vw;
-        width: 15%;
-        border-radius: 25px;
-        border: 2px solid #000000;
-        transform: translateY(5px);
-      }
-
-    .button-dark{
-              right:2.5vw;
-              position: absolute;
-              background-color: transparent;
-              color: #ffffff;
-              font-family: sans-serif;;
-              font-size: 1.25vw;
-              width: 15vw;
-              border-radius: 25px;
-              border: 2px solid #ffffff;
-
-
-            }
-    .button-dark:hover{
-              right:2.5vw;
-              position: absolute;
-              background-color: #ffffff;
-              color: #000000;
-              font-family: sans-serif;;
-              font-size: 1.25vw;
-              width: 15vw;
-              border-radius: 25px;
-              cursor: pointer;
-              border: 2px solid #ffffff;
-
-            }
-    .button-dark:active{
-              right:2.5vw;
-              position: absolute;
-              background-color: #ffffff;
-              color: #000000;
-              font-family: sans-serif;;
-              font-size: 1.25vw;
-              width: 15vw;
-              border-radius: 25px;
-              transform: translateY(5px);
-              border: 2px solid #ffffff;
-
-            }
-
-  /**francesca**/
-    .francesca-dark{
-      left:1.25vw;
-      top:1.25vw;
-      position: absolute;
-      color: #ffffff;
-      font-family: sans-serif;;
-      font-size: 1.25vw;
-      width: 15vw;
-      cursor: default;
-      }
-    .francesca-light{
-        left:1.25vw;
-        top:1.25vw;
-        position: absolute;
-        color: #000000;
-        font-family: sans-serif;;
-        font-size: 1.25vw;
-        width: 15vw;
-        cursor: default;
-        }
-    .francesca-ee{
-            left:1.25vw;
-            top:1.25vw;
-            position: absolute;
-            color: cyan;
-            font-family: sans-serif;;
-            font-size: 1.25vw;
-            width: 15vw;
-            cursor: default;
-            }
-
-  /**contatti**/
-    .wannasayhi-box-dark{
-              width:30vw;
-              height: 30vh;
-              background-color: black;
-              visibility: visible;
-              top: 50%;
-              left:50%;
-              margin-left: var(--mL);
-              margin-top: var(--mT);
-              transform: translate(-50%,-50%);
-              z-index: +10;
-              border: 2px solid #ffffff;
-              box-shadow: 10px 10px white;
-
-
-            }
-    .wannasayhi-box-light{
-      width:30vw;
-      height: 30vh;
-      background-color: white;
-      visibility: visible;
-      top: 50%;
-      left:50%;
-      margin-left: var(--mL);
-      margin-top: var(--mT);
-      transform: translate(-50%,-50%);
-      z-index: +10;
-      border: 2px solid #000000;
-      box-shadow: 10px 10px black;
-
-    }
-    .wannasayhi-box-ee{
-      width:30vw;
-      height: 30vh;
-      background-color:#e6b3ff;
-      visibility: visible;
-      top: 50%;
-      left:50%;
-      margin-left: var(--mL);
-      margin-top: var(--mT);
-      transform: translate(-50%,-50%);
-      z-index: +10;
-      border: 2px solid yellow;
-      box-shadow: 10px 10px cyan;
-
-    }
-
-  /**testo base sans**/
-    .testo-base-dark{
-      font-family: sans-serif;
-      color:white;
-      font-size: 1.25vw
-    }
-    .testo-base-light{
-      font-family: sans-serif;
-      color:black;
-      font-size: 1.25vw
-    }
-    .testo-base-ee{
-      font-family: sans-serif;
-      color:cyan;
-      font-size: 1.25vw
-    }
-
-  /**testo colonne**/
-    .colonna-dark{
-      font-family: ortica;
-      font-weight: 100;
-      color:white;
-      font-size: 1vw;
-      line-height: 1.5;
-
-    }
-    .colonna-light{
-      font-family: ortica;
-      color:black;
-      font-size: 1vw;
-      line-height: 1.5;
-
-    }
-    .colonna-ee{
-      font-family: ortica;
-      color:cyan;
-      font-size: 1vw;
-      line-height: 1.5;
-    }
-
-
-  /**runner**/
-    .runner-dark{
-              bottom: 1.25vw;
-              height: 1.25vw;
-              position: absolute;
-              background-color: transparent;
-              color: #ffffff;
-              font-family: sans-serif;;
-              font-size: 1.25vw;
-              width: 100%;
-              position: fixed;
-              z-index: +5;
-            }
-
-    /**h1 ee**/
-    .runner-light{
-              bottom: 1.25vw;
-              height: 1.25vw;
-              position: absolute;
-              background-color: transparent;
-              color: black;
-              font-family: sans-serif;;
-              font-size: 1.25vw;
-              width: 100%;
-              position: fixed;
-              z-index: +5;
-            }
-
-    /**h1 ee**/
-    .runner-ee{
-              bottom: 1.25vw;
-              height: 1.25vw;
-              position: absolute;
-              background-color: transparent;
-              color: cyan;
-              font-family: sans-serif;;
-              font-size: 1.25vw;
-              width: 100%;
-              position: fixed;
-              z-index: +5;
-            }
-
-    /**h1 ee**/
-
-
-
-
-  /**condizioni utili ecc**/
-    .light::-webkit-scrollbar {
-      width: auto;
-       }
-    .light::-webkit-scrollbar-track {
-      background: transparent;
-      border-left: 2px solid black;
-      }
-    .light::-webkit-scrollbar-thumb {
-      background-color: black;
-    }
-
-    .dark::-webkit-scrollbar {
-      width: auto;
-       }
-    .dark::-webkit-scrollbar-track {
-      background: transparent;
-      border-left: 2px solid white;
-      }
-    .dark::-webkit-scrollbar-thumb {
-      background-color: white;
-    }
-
-    .ee::-webkit-scrollbar {
-      width: auto;
-       }
-    .ee::-webkit-scrollbar-track {
-      background: transparent;
-      border-left: 2px solid yellow;
-      }
-    .ee::-webkit-scrollbar-thumb {
-      background-color: cyan;
-    }
-
-
-    .on {
-      visibility: visible;
-
-      }
-    .off {
-      visibility: hidden;
-        }
-    .draggable {
-      width: 0vw;
-      height: 0vw;
-      background: transparent;
-      border-radius: 50%;
-      float: left;
-      top: 50%;
-      left:50%;
-      margin-left: var(--mL);
-      margin-top: var(--mT);
-      transform: translate(-50%,-50%);
-      border: 0px solid red;
-      z-index: +3;
-      }
-    .container{
-      background-color: transparent;
-      width: 100vw;
-      height: 100vh;
-      white-space: nowrap;
-      overflow: hidden;
-      text-align: center;
-      vertical-align: middle;
-      top: 50%;
-      left:50%;
-      margin-left: var(--mL);
-      margin-top: var(--mT);
-      transform: translate(-50%,-50%);
-      position:fixed;
-      z-index: 10;
-    }
-    a{
-     color:inherit;
-     text-decoration: none;
-    }
-    @font-face {
-      font-family:ortica;
-      src: url(font/Ortica-Light.otf);
-    }
-    @font-face {
-      font-family:orticabold;
-      src: url(font/Ortica-Bold.otf);
-    }
-
-    #draggable{
-    -webkit-animation: flash linear 1s infinite;
-	  animation: flash linear 1s infinite;
-    }
-    #scroll{
-    -webkit-animation: flash linear 1s infinite;
-	  animation: flash linear 1s infinite;
-    }
-    @-webkit-keyframes flash {
-  	0% { opacity: 1; }
-	  50% { opacity: .1; }
-  	100% { opacity: 1; }
-    }
-
-  </style>
   </head>
 
 
@@ -455,25 +48,28 @@
     </div>
 
     <div id="footer" style="width:100vw;bottom:0;height:auto;position:fixed;z-index:+9">
-      <div id="runner" class="runner-dark">  <marquee direction="scroll">In this page I hide an Easter egg, can you find it? </marquee></div>
+      <div id="runner" class="runner-dark">  <marquee direction="scroll">© Francesca Fazzini 2020 (I've hidden an Easter egg, try to find it!)  </marquee></div>
       <button id="discover"  class="button-dark" onclick="back()"style="position:absolute;text-align: center; text-decoration:none;bottom:3.75vw;">BACK </button>
     </div>
 
-<!--BOX CONTATTI-->
-    <div id="container" class="off">
-      <div id="chiudi"class="draggable">
-        <div id="wannasayhi-box" class="off" >
-          <button id="close"   class="button-dark" style="width: 15vw; bottom:1.25vw"> CLOSE </button>
-          <div id="draggable" class="testo-base-dark" style="top:1.25vw;position:absolute;left:50%;transform:translate(-50%,0)">I'm draggable! </div>
-          <div  style="top: 50%; width: 100%;text-align: center; transform: translate(0%,-50%);position:absolute;">
-            <div id="testo-base"class="testo-base-dark">
-              You can find me on Instagram, Behance, LinkedIn,<br></br> or you can just send me an
-               <a href="mailto:francesca180998@gmail.com" style="font-family: sans-serif;font-size: 1.25vw; text-decoration:underline;">e-mail</a>.<br></br>
+    <!--BOX CONTATTI-->
+        <div id="container" class="off">
+          <div id="chiudi"class="draggable">
+            <div id="wannasayhi-box" class="off" >
+              <button id="close"   class="button-dark"> CLOSE </button>
+              <div id="draggable" class="testo-base-dark">I'm draggable! </div>
+              <div  style="top: 50%; width: 100%;text-align: center; transform: translate(0%,-50%);position:absolute;">
+                <div id="testo-base"class="testo-base-dark">
+                  You can find me on <br></br><a href="https://www.instagram.com/fazz.esca/?hl=it" style="font-family: sans-serif; text-decoration:underline;" target="_blank">Instagram</a>,
+                  <a href="https://www.behance.net/francesfazzini1" style="font-family: sans-serif;text-decoration:underline;" target="_blank">Behance</a>,
+                  <a href="https://www.linkedin.com/in/francesca-fazzini-7953061bb/" style="font-family: sans-serif;text-decoration:underline" target="_blank">LinkedIn</a>,<br></br>
+                  or you can just send me an
+                   <a href="mailto:francesca180998@gmail.com" style="font-family: sans-serif; text-decoration:underline;">e-mail</a>.<br></br>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
 
 
 
@@ -526,16 +122,16 @@
  <section >
   <div style="display:flex;width: 100vw; height: auto;position:absolute">
     <!--immagini 2:3 -->
-    <img src="images/vicevita1.png" style="display:flex;height:100vh;top:100vh;position:absolute;left:50%;transform:translate(-50%,0)">
-    <img src="images/vicevita2.png" style="display:flex;height:100vh;top:225vh;position:absolute;left:50%;transform:translate(-50%,0)">
-    <img src="images/vicevita3.png" style="display:flex;height:100vh;top:350vh;position:absolute;left:50%;transform:translate(-50%,0)">
-    <img src="images/vicevita4.png" style="display:flex;height:100vh;top:475vh;position:absolute;left:50%;transform:translate(-50%,0)">
-    <img src="images/vicevita5.png" style="display:flex;height:100vh;top:600vh;position:absolute;left:50%;transform:translate(-50%,0)">
-    <img src="images/vicevita6.png" style="display:flex;height:100vh;top:725vh;position:absolute;left:50%;transform:translate(-50%,0)">
-    <img src="images/vicevita7.png" style="display:flex;height:100vh;top:850vh;position:absolute;left:50%;transform:translate(-50%,0)">
+    <img id="imm1"src="images/vicevita1.jpg" style="display:flex;top:100vh;position:absolute;left:50%;transform:translate(-50%,0)">
+    <img id="imm2"src="images/vicevita2.jpg" style="display:flex;top:225vh;position:absolute;left:50%;transform:translate(-50%,0)">
+    <img id="imm3"src="images/vicevita3.jpg" style="display:flex;top:350vh;position:absolute;left:50%;transform:translate(-50%,0)">
+    <img id="imm4"src="images/vicevita4.jpg" style="display:flex;top:475vh;position:absolute;left:50%;transform:translate(-50%,0)">
+    <img id="imm5"src="images/vicevita5.jpg" style="display:flex;top:600vh;position:absolute;left:50%;transform:translate(-50%,0)">
+    <img id="imm6"src="images/vicevita6.jpg" style="display:flex;top:725vh;position:absolute;left:50%;transform:translate(-50%,0)">
+    <img id="imm7"src="images/vicevita7.jpg" style="display:flex;top:850vh;position:absolute;left:50%;transform:translate(-50%,0)">
 
 
-     <div style="display:flex;width:100vw;height:100vh;top:950vh;position:absolute;color: transparent"></div>
+     <div id="fine" style="display:flex;width:100vw;height:100vh;top:950vh;position:absolute;color: transparent"></div>
 
 
  </div>
@@ -611,7 +207,7 @@ $(document).ready(function() {
           if ( keys.length > code.length ) { keys.shift(); }
 
           if ( keys.toString() == code.toString() ) {
-            document.querySelector("marquee").innerHTML = "Congrats! You did it! ";
+            document.querySelector("marquee").innerHTML = "© Francesca Fazzini 2020 (You did it!)";
             document.getElementById("body").className = "ee";
             document.getElementById("mode").className = "button-ee";
             document.getElementById("wannasayhi").className = "button-ee";
