@@ -275,76 +275,6 @@ canvas{
 
 
 /**testo ee**/
-h1 {
-  font-weight: 100;
-  font-size: 3vw;
-  line-height: 1.3;
-  cursor: default;
-  text-align: left;
-  top:20vh;
-  left:50vw;
-  position:absolute;
-  width: 40vw;
-  border: 0px solid #00ffff;
-}
-h1 span {
-  transition: color 1s;
-}
-h1 span:nth-child(1n):hover {
-  color:yellow;
-}
-h1 span:nth-child(2n):hover {
-  color:yellow;
-
-}
-h1 span:nth-child(3n):hover {
-  color:yellow;
-
-  }
-h1 span:nth-child(4n):hover {
-  color:yellow;
-
-  }
-h1 span:hover {
-      transition: color 0s;
-    }
-    /**h2 light**/
-
-
-/**testo **/
-h2 {
-  font-weight: 100;
-  font-size: 3vw;
-  line-height: 1.3;
-  cursor: default;
-  text-align: left;
-  top:20vh;
-  left:50vw;
-  position:absolute;
-  width: 40vw;
-  border: 0px solid #00ffff;
-}
-h2 span {
-  transition: color 1s;
-}
-h2 span:nth-child(1n):hover {
-  color:transparent;
-}
-h2 span:nth-child(2n):hover {
-  color:transparent;
-      }
-h2 span:nth-child(3n):hover {
-  color:transparent;
-    }
-h2 span:nth-child(4n):hover {
-  color:transparent;
-      }
-h2 span:hover {
-      transition: color 0s;
-    }
-    /**h3 dark**/
-
-/**condizioni utili ecc**/
 .light::-webkit-scrollbar {
   width: auto;
    }
@@ -447,16 +377,21 @@ img{
   right:35vw;
   position:absolute;
   width:30vw;
-  height:40vh
+  height:40vh;
+  font-size: 1.15vw;
+  line-height: 1.75vw;
 }
 #col2{
   top:27.5vh;
   right:2.5vw;
   position:absolute;
   width:30vw;
-  height:40vh
-}
+  height:40vh;
+  font-size: 1.15vw;
+  line-height: 1.75vw;
 
+
+}
 a{
  color:inherit;
  text-decoration: none;
