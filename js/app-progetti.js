@@ -72,6 +72,7 @@ button.addEventListener("click", function () {
     document.getElementById("dida").className = "testo-base-dark";
 
 
+
     }
     else {
     button.innerHTML = "DARK MODE";
