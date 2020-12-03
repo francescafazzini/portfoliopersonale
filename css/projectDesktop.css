@@ -386,6 +386,17 @@ img{
 #imm7{
   top:760vh;
 }
+#imm8{
+  top:870vh;
+}
+#imm9{
+  top:980vh;
+}
+#imm10{
+  top:1090vh;
+}
+
+
 #fine{
   display:flex;
   width:100vw;
