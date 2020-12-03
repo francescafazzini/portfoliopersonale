@@ -397,20 +397,17 @@ img{
 }
 #col1{
   top:250px;
+  bottom:100px;
+  overflow: scroll;
   left: 50%;
   position:absolute;
   transform: translate(-50%,0);
   width:75vw;
   font-size: 14px;
 }
-#col2{
-  top:50%;
-  left: 50%;
-  position:absolute;
-  transform: translate(-50%,0);
-  width:75vw;
-  font-size: 14px;
-}
+#col1::-webkit-scrollbar {
+  width: 0
+   }
 
 a{
  color:inherit;

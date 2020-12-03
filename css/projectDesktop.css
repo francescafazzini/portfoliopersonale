@@ -374,24 +374,19 @@ img{
 }
 #col1{
   top:27.5vh;
-  right:35vw;
+  left:50vw;
   position:absolute;
-  width:30vw;
+  width:31.25vw;
   height:40vh;
+  overflow: scroll;
   font-size: 1.15vw;
   line-height: 1.75vw;
 }
-#col2{
-  top:27.5vh;
-  right:2.5vw;
-  position:absolute;
-  width:30vw;
-  height:40vh;
-  font-size: 1.15vw;
-  line-height: 1.75vw;
+#col1::-webkit-scrollbar {
+  width: 0
+   }
 
 
-}
 a{
  color:inherit;
  text-decoration: none;
