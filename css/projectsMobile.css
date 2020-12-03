@@ -405,7 +405,8 @@ img{
   position:absolute;
   transform: translate(-50%,0);
   width:75vw;
-  font-size: 14px;
+  font-size: 15px;
+  line-height: 1.5;
 }
 #col1::-webkit-scrollbar {
   width: 0
