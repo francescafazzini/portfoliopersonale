@@ -218,9 +218,3 @@ button.addEventListener("click", function () {
     document.getElementById("illustrazioni-dida").className = "testo-base-light";
     }
 })
-
-
-//open projects
-
-function discoverVice() {
-  window.open("la-vicevita-treni-e-viaggi-in-treno.html", "_self", );}

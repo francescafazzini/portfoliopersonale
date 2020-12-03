@@ -1,19 +1,3 @@
-// this function takes text and wraps all the letters in spans
-const makeSpans = selector => {
-  const [...elements] = document.querySelectorAll(selector)
-  return elements.map(element => {
-    const text = element.innerText.split('')
-    const spans = text
-      .map(letter => '<span>' + letter + '</span>')
-      .join('')
-    return element.innerHTML = spans
-  })
-}
-
-// or with multiple selectors
-makeSpans('h1, h2')
-
-
 // get all draggie elements
 var draggableElems = document.querySelectorAll('.draggable');
 // array of Draggabillies
@@ -86,8 +70,6 @@ button.addEventListener("click", function () {
     document.getElementById('draggable').className="testo-base-dark";
     document.getElementById('discover').className="button-dark";
     document.getElementById("dida").className = "testo-base-dark";
-    document.getElementById("col1").className = "colonna-dark";
-    document.getElementById("col2").className = "colonna-dark";
 
 
     }
@@ -104,8 +86,6 @@ button.addEventListener("click", function () {
     document.getElementById('draggable').className="testo-base-light";
     document.getElementById('discover').className="button-light";
     document.getElementById("dida").className = "testo-base-light";
-    document.getElementById("col1").className = "colonna-light";
-    document.getElementById("col2").className = "colonna-light";
 
 
 
