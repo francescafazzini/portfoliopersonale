@@ -401,6 +401,11 @@ a{
   font-family:ortica;
   src: url(font/Ortica-Light.otf);
 }
+@font-face {
+  font-family:orticaB;
+  src: url(font/Ortica-Bold.otf);
+}
+
 #loader-txt{
 -webkit-animation: flash linear 1s infinite;
 animation: flash linear 1s infinite;
