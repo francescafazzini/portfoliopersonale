@@ -431,6 +431,32 @@ h2 span:hover {
 img{
   height: 100vh;
 }
+#discover{
+  position:absolute;
+  text-align: center;
+  text-decoration:none;
+  bottom:3.75vw
+}
+#dida{
+  top:27.5vh;
+  left:1.25vw;
+  position:absolute
+}
+#col1{
+  top:27.5vh;
+  right:35vw;
+  position:absolute;
+  width:30vw;
+  height:40vh
+}
+#col2{
+  top:27.5vh;
+  right:2.5vw;
+  position:absolute;
+  width:30vw;
+  height:40vh
+}
+
 a{
  color:inherit;
  text-decoration: none;

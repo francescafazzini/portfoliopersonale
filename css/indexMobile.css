@@ -152,6 +152,7 @@ canvas{
 
 /**francesca**/
 .francesca-dark{
+  top: 15px;
   left:50%;
   transform: translate(-50%,0);
   position: absolute;
@@ -163,6 +164,7 @@ canvas{
   cursor: default;
   }
 .francesca-light{
+  top: 15px;
   left:50%;
   transform: translate(-50%,0);
   position: absolute;
@@ -174,6 +176,7 @@ canvas{
   cursor: default;
     }
 .francesca-ee{
+  top: 15px;
   left:50%;
   transform: translate(-50%,0);
   position: absolute;
