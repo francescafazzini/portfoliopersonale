@@ -11,7 +11,7 @@ const makeSpans = selector => {
 }
 
 // or with multiple selectors
-makeSpans('h1, h2, h3, h4')
+makeSpans('h1, h2')
 
 
 // get all draggie elements
@@ -39,11 +39,11 @@ const mode = document.getElementById('mode')
 
 open.addEventListener("click", function () {
 
-  if (mode.innerHTML === "LIGHT MODE" && body.className==='dark'){
+  if (body.className==='dark'){
     document.getElementById("container").className = "container";
     document.getElementById("wannasayhi-box").className = "wannasayhi-box-dark";
   }
-  else if (mode.innerHTML === "DARK MODE" && body.className==='light') {
+  else if (body.className==='light') {
     document.getElementById("container").className = "container";
     document.getElementById("wannasayhi-box").className = "wannasayhi-box-light";
   }
@@ -111,8 +111,3 @@ button.addEventListener("click", function () {
 
     }
 })
-
-//back
-
-function back() {
-  window.open("index.html", "_self", );}
