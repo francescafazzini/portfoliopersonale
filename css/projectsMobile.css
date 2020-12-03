@@ -376,14 +376,24 @@ canvas{
 }
 img{
   width: 100vw;
+  display:flex;
+  position:relative;
+  border-bottom: 10vw solid transparent;
+
 }
+#fine{
+  height: 100vh;
+}
+
+
 #discover{
+  left: 50%;
+  transform: translate(-50%,0);
   position:absolute;
   text-align: center;
   text-decoration:none;
   bottom:50px;
-  left:50%;
-  transform: translate(-50%,0);
+  right:2vw;
 
 }
 #dida{
@@ -395,8 +405,9 @@ img{
   position: absolute;
 
 }
-#col1{
-  border: 1px solid;
+#testo{
+  border-top: 1px solid;
+  border-bottom: 1px solid;
   padding: 10px;
   top:225px;
   bottom:100px;
@@ -405,10 +416,10 @@ img{
   position:absolute;
   transform: translate(-50%,0);
   width:75vw;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.5;
 }
-#col1::-webkit-scrollbar {
+#testo::-webkit-scrollbar {
   width: 0
    }
 

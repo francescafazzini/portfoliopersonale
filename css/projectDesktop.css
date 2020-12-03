@@ -360,6 +360,38 @@ canvas{
 }
 img{
   height: 100vh;
+  display:flex;
+  position:absolute;
+  left:50%;
+  transform:translate(-50%,0)
+}
+#imm1{
+  top:100vh;
+}
+#imm2{
+  top:210vh;
+}
+#imm3{
+  top:320vh;
+}
+#imm4{
+  top:430vh;
+}
+#imm5{
+  top:540vh;
+}
+#imm6{
+  top:650vh;
+}
+#imm7{
+  top:760vh;
+}
+#fine{
+  display:flex;
+  width:100vw;
+  height:100vh;
+  position:absolute;
+  color: transparent;
 }
 #discover{
   position:absolute;
@@ -372,18 +404,31 @@ img{
   left:1.25vw;
   position:absolute
 }
-#col1{
+#testo{
   top:27.5vh;
-  left:50vw;
-  position:absolute;
-  width:40vw;
-  bottom:27.5vh;
-  overflow: hidden;
+  width:100vw;
+  position:fixed;
+  height:40vh;
   font-size: 1.15vw;
   line-height: 1.75vw;
-  text-align: justify;
-}
 
+}
+#col1{
+  position:absolute;
+  height:40vh;
+  font-size: 1.15vw;
+  line-height: 1.75vw;
+  left:33.75vw;
+  width: 31.25vw;
+}
+#col2{
+  position:absolute;
+  height:40vh;
+  font-size: 1.15vw;
+  line-height: 1.75vw;
+  right:2.5vw;
+  width: 31.25vw;
+}
 
 a{
  color:inherit;
@@ -429,6 +474,9 @@ animation: flash linear 1s infinite;
 
 #mobile{
   visibility: hidden;
+}
+#box{
+  position:fixed
 }
 
 @-webkit-keyframes flash {
