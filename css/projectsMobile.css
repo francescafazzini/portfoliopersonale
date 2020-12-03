@@ -388,7 +388,7 @@ img{
 }
 #dida{
   top:100px;
-  width: 75vw;
+  width: 100vw;
   left:50%;
   transform: translate(-50%,0%);
   text-align: center;
