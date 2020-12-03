@@ -396,7 +396,9 @@ img{
 
 }
 #col1{
-  top:250px;
+  border: 1px solid white;
+  padding: 10px;
+  top:200px;
   bottom:100px;
   overflow: scroll;
   left: 50%;
