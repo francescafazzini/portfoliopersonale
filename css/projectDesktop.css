@@ -429,135 +429,20 @@ h2 span:hover {
   top:1.25vw;
 }
 img{
-  height: 60vh;
+  height: 100vh;
 }
-#vicevita-dida{
-  top:27.5vh;
-  left:1.25vw;
-  position:absolute
-}
-#vicevita-discover{
-  position:absolute;
-  text-align: center;
-  text-decoration:none;
-  bottom:3.75vw
-}
-
-#colpevole-dida{
-  top:27.5vh;
-  left:1.25vw;
-  position:absolute
-}
-#colpevole-discover{
-  position:absolute;
-  text-align: center;
-  text-decoration:none;
-  bottom:3.75vw;
-}
-
-#riace-dida{
-  top:27.5vh;
-  left:1.25vw;
-  position:absolute
-}
-#riace-discover{
-  position:absolute;
-  text-align: center;
-  text-decoration:none;
-  bottom:3.75vw
-}
-
-#mrseaves-dida{
-  top:27.5vh;
-  left:1.25vw;
-  position:absolute;
-}
-#mrseaves-discover{
-  position:absolute;
-  text-align: center;
-  text-decoration:none;
-  bottom:3.75vw
-}
-
-#arbus-dida{
- top:27.5vh;
- left:1.25vw;
- position:absolute
-}
-#arbus-discover{
-  position:absolute;
-  text-align: center;
-  text-decoration:none;
-  bottom:3.75vw
-}
-
-#fellini-dida{
- top:27.5vh;
- left:1.25vw;
- position:absolute
-}
-#fellini-discover{
-  position:absolute;
-  text-align: center;
-  text-decoration:none;
-  bottom:3.75vw
-}
-
-#steiner-dida{
- top:27.5vh;
- left:1.25vw;
- position:absolute
-}
-#steiner-discover{
-  position:absolute;
-  text-align: center;
-  text-decoration:none;
-  bottom:3.75vw
-}
-
-#ecovie-dida{
- top:27.5vh;
- left:1.25vw;
- position:absolute
-}
-#ecovie-discover{
-  position:absolute;
-  text-align: center;
-  text-decoration:none;
-  bottom:3.75vw
-}
-
-#illustrazioni-dida{
-  top:27.5vh;
-  left:1.25vw;
-  position:absolute
- }
-#illustrazioni-discover{
-   position:absolute;
-   text-align: center;
-   text-decoration:none;
-   bottom:3.75vw
- }
-
-
 a{
  color:inherit;
  text-decoration: none;
  font-size: 1.25vw;
-}
-
-.screensaver{
-  -webkit-animation: glitch linear 0.5s infinite;
-  animation: glitch linear 0.5s infinite;
-
 }
 @font-face {
   font-family:ortica;
   src: url(font/Ortica-Light.otf);
 }
 #loader-txt{
--webkit-animation: flash linear 0.5s infinite;
-animation: flash linear 0.5s infinite;
+-webkit-animation: flash linear 1s infinite;
+animation: flash linear 1s infinite;
 position: absolute;
 top:50%;
 left:50%;
@@ -580,9 +465,6 @@ left:1.25vw;
 #scroll{
 -webkit-animation: flash linear 1s infinite;
 animation: flash linear 1s infinite;
-bottom:3.75vw;
-right:2.5vw;
-position:absolute
 
 }
 
@@ -590,10 +472,4 @@ position:absolute
 0% { opacity: 1; }
 50% { opacity: .1; }
 100% { opacity: 1; }
-}
-
-@-webkit-keyframes glitch {
-  0% { opacity: 1; }
-	50% { opacity: .1; }
-	100% { opacity: 1; }
 }
