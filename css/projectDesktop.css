@@ -378,13 +378,10 @@ img{
   position:absolute;
   width:31.25vw;
   height:40vh;
-  overflow: scroll;
+  overflow: hidden;
   font-size: 1.15vw;
   line-height: 1.75vw;
 }
-#col1::-webkit-scrollbar {
-  width: 0
-   }
 
 
 a{
