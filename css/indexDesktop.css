@@ -430,6 +430,7 @@ h2 span:hover {
 }
 img{
   height: 60vh;
+  opacity: 100%;
 }
 #vicevita-dida{
   top:27.5vh;
@@ -590,10 +591,4 @@ position:absolute
 0% { opacity: 1; }
 50% { opacity: .1; }
 100% { opacity: 1; }
-}
-
-@-webkit-keyframes glitch {
-  0% { opacity: 1; }
-	50% { opacity: .1; }
-	100% { opacity: 1; }
 }
