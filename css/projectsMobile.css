@@ -420,7 +420,9 @@ img{
 #testo::-webkit-scrollbar {
   width: 0
    }
-
+#ee{
+  visibility: hidden;
+}
 a{
  color:inherit;
  text-decoration: none;
