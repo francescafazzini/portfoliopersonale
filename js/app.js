@@ -152,7 +152,9 @@ button.addEventListener("click", function () {
     document.getElementById('nostalgia-discover').className="button-dark";
     document.getElementById("nostalgia-dida").className = "testo-base-dark";
 
-
+    document.getElementById('inquietudine').className="border-dark";
+    document.getElementById('inquietudine-discover').className="button-dark";
+    document.getElementById("inquietudine-dida").className = "testo-base-dark";
     }
     else {
     button.innerHTML = "DARK MODE";
@@ -232,5 +234,8 @@ button.addEventListener("click", function () {
     document.getElementById('nostalgia-discover').className="button-light";
     document.getElementById("nostalgia-dida").className = "testo-base-light";
 
+    document.getElementById('inquietudine').className="border-light";
+    document.getElementById('inquietudine-discover').className="button-light";
+    document.getElementById("inquietudine-dida").className = "testo-base-light";
     }
 })
