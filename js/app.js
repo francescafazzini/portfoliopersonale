@@ -140,10 +140,17 @@ button.addEventListener("click", function () {
     document.getElementById('ecovie-discover').className="button-dark";
     document.getElementById("ecovie-dida").className = "testo-base-dark";
 
-    document.getElementById('illustrazioni').className="border-dark";
-    document.getElementById('illustrazioni-discover').className="button-dark";
-    document.getElementById("illustrazioni-dida").className = "testo-base-dark";
+    document.getElementById('sogni').className="border-dark";
+    document.getElementById('sogni-discover').className="button-dark";
+    document.getElementById("sogni-dida").className = "testo-base-dark";
 
+    document.getElementById('immobilità').className="border-dark";
+    document.getElementById('immobilità-discover').className="button-dark";
+    document.getElementById("immobilità-dida").className = "testo-base-dark";
+
+    document.getElementById('nostalgia').className="border-dark";
+    document.getElementById('nostalgia-discover').className="button-dark";
+    document.getElementById("nostalgia-dida").className = "testo-base-dark";
 
 
     }
@@ -213,8 +220,17 @@ button.addEventListener("click", function () {
     document.getElementById('ecovie-discover').className="button-light";
     document.getElementById("ecovie-dida").className = "testo-base-light";
 
-    document.getElementById('illustrazioni').className="border-light";
-    document.getElementById('illustrazioni-discover').className="button-light";
-    document.getElementById("illustrazioni-dida").className = "testo-base-light";
+    document.getElementById('sogni').className="border-light";
+    document.getElementById('sogni-discover').className="button-light";
+    document.getElementById("sogni-dida").className = "testo-base-light";
+
+    document.getElementById('immobilità').className="border-light";
+    document.getElementById('immobilità-discover').className="button-light";
+    document.getElementById("immobilità-dida").className = "testo-base-light";
+
+    document.getElementById('nostalgia').className="border-light";
+    document.getElementById('nostalgia-discover').className="button-light";
+    document.getElementById("nostalgia-dida").className = "testo-base-light";
+
     }
 })
