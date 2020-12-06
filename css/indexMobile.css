@@ -585,7 +585,7 @@ img{
   transform: translate(-50%,0);
 }
 
-#illustrazioni-dida{
+#sogni-dida{
   bottom: 100px;
   left:50%;
   transform: translate(-50%,0);
@@ -593,7 +593,7 @@ img{
   text-align: center;
   width: 100vw;
  }
-#illustrazioni-discover{
+#sogni-discover{
    position:absolute;
    text-align: center;
    text-decoration:none;
@@ -601,6 +601,55 @@ img{
    left:50%;
    transform: translate(-50%,0);
  }
+ #immobilità-dida{
+   bottom: 100px;
+   left:50%;
+   transform: translate(-50%,0);
+   position:absolute;
+   text-align: center;
+   width: 100vw;
+  }
+ #immobilità-discover{
+    position:absolute;
+    text-align: center;
+    text-decoration:none;
+    bottom:50px;
+    left:50%;
+    transform: translate(-50%,0);
+  }
+  #nostalgia-dida{
+    bottom: 100px;
+    left:50%;
+    transform: translate(-50%,0);
+    position:absolute;
+    text-align: center;
+    width: 100vw;
+   }
+  #nostalgia-discover{
+     position:absolute;
+     text-align: center;
+     text-decoration:none;
+     bottom:50px;
+     left:50%;
+     transform: translate(-50%,0);
+   }
+   #inquietudine-dida{
+     bottom: 100px;
+     left:50%;
+     transform: translate(-50%,0);
+     position:absolute;
+     text-align: center;
+     width: 100vw;
+    }
+   #inquietudine-discover{
+      position:absolute;
+      text-align: center;
+      text-decoration:none;
+      bottom:50px;
+      left:50%;
+      transform: translate(-50%,0);
+    }
+
 
 
 a{

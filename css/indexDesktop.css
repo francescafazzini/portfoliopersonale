@@ -528,17 +528,53 @@ img{
   bottom:3.75vw
 }
 
-#illustrazioni-dida{
+#sogni-dida{
   top:27.5vh;
   left:1.25vw;
   position:absolute
  }
-#illustrazioni-discover{
+#sogni-discover{
    position:absolute;
    text-align: center;
    text-decoration:none;
    bottom:3.75vw
  }
+
+ #immobilità-dida{
+   top:27.5vh;
+   left:1.25vw;
+   position:absolute
+  }
+ #immobilità-discover{
+    position:absolute;
+    text-align: center;
+    text-decoration:none;
+    bottom:3.75vw
+  }
+  #nostalgia-dida{
+    top:27.5vh;
+    left:1.25vw;
+    position:absolute
+   }
+  #nostalgia-discover{
+     position:absolute;
+     text-align: center;
+     text-decoration:none;
+     bottom:3.75vw
+   }
+   #inquietudine-dida{
+     top:27.5vh;
+     left:1.25vw;
+     position:absolute
+    }
+   #inquietudine-discover{
+      position:absolute;
+      text-align: center;
+      text-decoration:none;
+      bottom:3.75vw
+    }
+
+
 
 
 a{
