@@ -427,7 +427,7 @@ img{
 #col1{
   position:absolute;
   height:40vh;
-  font-size: 1.15vw;
+  font-size: 1vw;
   line-height: 1.75vw;
   left:33.75vw;
   width: 31.25vw;
@@ -435,7 +435,7 @@ img{
 #col2{
   position:absolute;
   height:40vh;
-  font-size: 1.15vw;
+  font-size: 1vw;
   line-height: 1.75vw;
   right:2.5vw;
   width: 31.25vw;
