@@ -239,3 +239,73 @@ button.addEventListener("click", function () {
     document.getElementById("inquietudine-dida").className = "testo-base-light";
     }
 })
+
+//cv
+const cv = document.getElementById('cv')
+cv.addEventListener("click", function () {
+window.download("Fazzini_Francesca_CV.pdf","_blank");
+  }
+)
+
+
+//open
+const openvicevita = document.getElementById('vicevita-discover')
+openvicevita.addEventListener("click", function () {
+window.open("la-vicevita-treni-e-viaggi-in-treno.html","_self");
+  }
+)
+const opencolpevole = document.getElementById('colpevole-discover')
+opencolpevole.addEventListener("click", function () {
+window.open("colpevole.html","_self");
+  }
+)
+const openriace = document.getElementById('riace-discover')
+openriace.addEventListener("click", function () {
+window.open("riace-villaggio-globale.html","_self");
+  }
+)
+const openmrs = document.getElementById('mrseaves-discover')
+openmrs.addEventListener("click", function () {
+window.open("mrs-eaves.html","_self");
+  }
+)
+const openarbus = document.getElementById('arbus-discover')
+openarbus.addEventListener("click", function () {
+window.open("diane-arbus.html","_self");
+  }
+)
+const openfellini = document.getElementById('fellini-discover')
+openfellini.addEventListener("click", function () {
+window.open("federico-fellini.html","_self");
+  }
+)
+const opensteiner = document.getElementById('steiner-discover')
+opensteiner.addEventListener("click", function () {
+window.open("albe-steiner.html","_self");
+  }
+)
+const openeco = document.getElementById('ecovie-discover')
+openeco.addEventListener("click", function () {
+window.open("ecovie-autostrade-intelligenti.html","_self");
+  }
+)
+const openliquid = document.getElementById('sogni-discover')
+openliquid.addEventListener("click", function () {
+window.open("liquid-dreams.html","_self");
+  }
+)
+const openlull = document.getElementById('immobilità-discover')
+openlull.addEventListener("click", function () {
+window.open("lull.html","_self");
+  }
+)
+const opennost = document.getElementById('nostalgia-discover')
+opennost.addEventListener("click", function () {
+window.open("nostalgic-longing.html","_self");
+  }
+)
+const opendist = document.getElementById('inquietudine-discover')
+opendist.addEventListener("click", function () {
+window.open("disturbance.html","_self");
+  }
+)

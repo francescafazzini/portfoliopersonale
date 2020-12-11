@@ -92,3 +92,11 @@ button.addEventListener("click", function () {
 
     }
 })
+
+//back
+
+const back = document.getElementById('discover')
+ back.addEventListener("click", function () {
+window.open("index.html","_self");
+  }
+)
